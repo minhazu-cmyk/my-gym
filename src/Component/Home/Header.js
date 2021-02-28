@@ -1,31 +1,24 @@
 import React from 'react';
-
+import background from '../../../src/Image & Icon/background.jpg'
 const Header = () => {
-    return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-        </div>
+    return ( 
+     
+     <div style={{ width: '100%',
+     height: '650px',
+     paddingTop:"80px",
+     backgroundPosition:"0px -50px",
+     backgroundSize: 'cover' ,
+        backgroundImage:`url(${background})` }}>
+     <div style={{marginLeft:"20px",marginTop:"100px"}}>
+        <h1 style={{color:"white",fontSize:"45px"}}> THE BEST FITNESS <br/> STUDIO IN TOWN</h1>
+           <br/>
+           <p style={{color:"white"}}> this is the best gym in the town, where u can <br/> strength ur body and shape ur body. we have lot of <br/> courses for body shaping such as egfyg asdnuyg <br/> cafguwuieg fewiehfu erwieufe weufhewu ewuu edu  </p>
+        
+            <br/> 
+            <button style={{backgroundColor:"#E1C13E",height:"40px" ,width:"100px",borderRadius:"5px "}}> Join us</button>
+            </div>
+            </div>
+      
     );
 };
 
