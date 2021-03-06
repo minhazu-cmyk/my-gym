@@ -1,13 +1,19 @@
 import React from 'react';
 
 const OurProgrammDetails = (props) => {
-    const {title,description,background} =props.item
+    const {title,description,background,icon} =props.item
     console.log(props.item)
     return (
-        <div class="card col-md-4" >
-        <img class="card-img-top" src={background} alt="Card image cap"/>
+        <div  style={{ backgroundSize:"cover",
+    backgroundRepeat:"no-repeat",
+    height:"400px",
+    width:"",
+         backgroundImage:`url(${background})` }} class="card col-md-4" >
+    <img  style={{ marginTop:"200px", width:"100px", height:"100px"}} src={icon} alt=""/>
         <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title text-white
+      ">{title} </h5>
+          <p class="card-text text-white">{description} </p>
         </div>
       </div>
       
