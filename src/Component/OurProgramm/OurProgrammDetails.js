@@ -6,10 +6,10 @@ const OurProgrammDetails = (props) => {
     return (
         <div  style={{ backgroundSize:"cover",
     backgroundRepeat:"no-repeat",
-    height:"400px",
+    height:"300px",
     width:"",
          backgroundImage:`url(${background})` }} class="card col-md-4" >
-    <img  style={{ marginTop:"200px", width:"100px", height:"100px"}} src={icon} alt=""/>
+    <img  style={{ marginTop:"100px", width:"100px", height:"100px"}} src={icon} alt=""/>
         <div class="card-body">
         <h5 class="card-title text-white
       ">{title} </h5>

@@ -20,7 +20,7 @@ const information =[
 ];
 const OurProgramm = () => {
     return (
-        <div className="row">
+        <div style={{padding:"5px"}}  className="row w-75 mt-5 ms-5 ps-5">
             {
                 information.map(x=> <OurProgrammDetails item={x}></OurProgrammDetails> )
             }
