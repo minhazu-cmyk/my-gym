@@ -6,7 +6,7 @@ const NavBar = () => {
   <div>
   <ul style={{marginTop:"-60px"}} class="nav">
   <li class="nav-item">
-    <a class="nav-link text-light " aria-current="page" href="#"> <span style={{fontSize:"20px"}}> POWER X </span></a>
+    <a class="nav-link text-light " aria-current="page" href="#"> <span style={{fontSize:"50px"}}> POWER X </span></a>
   </li>
   </ul>
     

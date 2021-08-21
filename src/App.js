@@ -7,9 +7,24 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import TrainingSession from './Component/TrainingSession/TrainingSession';
+import AdvanceGym from './Component/AdvanceGym/AdvanceGym';
 function App() {
   return (
-   <Home></Home>
+<Router>
+  <Switch>
+  <Route path="/home">
+    <Home/>
+      </Route>
+      <Route path="/training">
+            <TrainingSession/>
+    </Route>
+    <Route path="/advance">
+           <AdvanceGym></AdvanceGym>
+    </Route>
+  </Switch>
+</Router>
+  
   );
 }
 

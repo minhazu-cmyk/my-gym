@@ -3,6 +3,8 @@ import Header from './Header';
 import OurProgramm from '../OurProgramm/OurProgramm'
 import OurTeam from './OurTeam/OurTeam';
 import Training from './Training/Training';
+import ChooseUs from './ChooseUs/ChooseUs';
+import Footer from './Footer/Footer';
 const Home = () => {
     return (
         <div>
@@ -10,6 +12,8 @@ const Home = () => {
             <OurProgramm></OurProgramm>
             <OurTeam></OurTeam>
             <Training></Training>
+           <ChooseUs></ChooseUs>
+           <Footer></Footer>
         </div>
     );
 };
