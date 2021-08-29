@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const info =[
 { 
@@ -36,8 +37,8 @@ const OurCourse = () => {
     width:"250",margin:"15px", backgroundImage:`url(${x.img})` }} class="card col-md-3  ">
  
   <div  class="card-body text-center">
- <h6 style={{backgroundColor:"yellow",height:"35px",marginTop:"220px"}}>{x.description} 
-  </h6>
+ <Link to="/advance"><h6 style={{backgroundColor:"yellow",height:"35px",marginTop:"220px"}}>{x.description} 
+  </h6> </Link> 
   </div>
 </div>)}
            

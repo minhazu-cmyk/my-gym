@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import background from '../../../src/Image & Icon/background.jpg'
 import NavBar from '../NavBar/NavBar'
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
            <p style={{color:"white"}}> this is the best gym in the town, where u can <br/> strength ur body and shape ur body. we have lot of <br/> courses for body shaping such as egfyg asdnuyg <br/> cafguwuieg fewiehfu erwieufe weufhewu ewuu edu  </p>
         
             <br/> 
-            <button style={{backgroundColor:"#E1C13E",height:"40px" ,width:"100px",borderRadius:"5px "}}> Join us</button>
+           <Link to ="/training"> <button style={{backgroundColor:"#E1C13E",height:"40px" ,width:"100px",borderRadius:"5px "}}> Join us</button> </Link>
             </div>
             </div>
       

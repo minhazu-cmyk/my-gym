@@ -1,6 +1,7 @@
 import React from 'react';
 import advance from '../../../Image & Icon/advance.jpg'
 import { FaCheckSquare } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const GymDetails = () => {
     return (
@@ -43,10 +44,8 @@ const GymDetails = () => {
   </tr>
   
 </table>
-<button style={{marginTop:"500px",width:"80px"}} type="text"> join us </button>
-          </div>
-  
-            
+ <Link to ="/pricing"> <button style={{marginTop:"500px",width:"80px", backgroundColor:"yellow"}} type="">Join us</button> </Link>
+        </div>    
         </div>
     );
 };

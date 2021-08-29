@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdDone } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const info= [
     {title:"ADVANCE PLAN",
@@ -44,7 +45,7 @@ const PricingDetails = () => {
                            <p style={{color:"white"}}> <MdDone/>best hosting</p>
                            <p style={{color:"white"}}><MdDone/>free coustom</p>
                            <p style={{color:"white"}}><MdDone/>out standing</p>
-                           <button style={{backgroundColor:"yellow"}} type="text">{x.pay} </button>
+                          <Link to="/personal"> <button style={{backgroundColor:"yellow"}} type="text">{x.pay} </button></Link>
                          </div>
                        </div>)
                  }

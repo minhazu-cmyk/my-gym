@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PersonalInfo = () => {
     return (
-        <form>
-        <div className="row mt-5">
-           <div className="col-md-6">
+        <form className="mb-5 ms-5">
+        <div className="row mt-5  form-group">
+           <div className="col-md-5 form-group">
              <label for="firstName">First Name</label> 
              <input type="text" class="form-control" placeholder="First name"/>
              <br/>
@@ -21,7 +22,7 @@ const PersonalInfo = () => {
              <label for="city">city</label> 
              <input type="text" class="form-control" placeholder="city"/>
              </div> 
-           <div className="col-md-6">
+           <div className="col-md-5 form-group">
                <label for="lastName"> Last Name</label>
                <input type="text" class="form-control" placeholder="last name"/>
                <br/>
@@ -46,7 +47,7 @@ const PersonalInfo = () => {
               
                </div> 
         </div>
-        <button className="d-flex justify-content-end btn btn-primary" type="submit"> NEXT</button>
+        <Link to="payment"> <button className="d-flex justify-content-end btn btn-primary" type="submit"> NEXT</button></Link>
         </form>
     );
 };
